@@ -30,7 +30,9 @@ export const Start = () => {
     <div className='heading'>
       <h2 className='Apply'>Apply Now</h2>
     </div>
+    <div className="column">
       <form ref={form} onSubmit={sendEmail}>
+      <div className="row1">
       <label>Carrier Name</label>
       <input type="text" name="user_name" />
 
@@ -55,6 +57,9 @@ export const Start = () => {
       <label>Email</label>
       <input type="text" name="user_email" />
 
+      </div>
+      <div className="row2">
+
       <label>Trucks Owned</label>
       <input type="text" name="user_trucks" />
 
@@ -77,10 +82,13 @@ export const Start = () => {
       <input type="text" name="user_mc" />
 
 
+
       <label>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
+      </div>
     </form>
+    </div>
     </div>
   
 

@@ -47,7 +47,8 @@ font-size: 80px;
 }
 
 .text {
-padding-top: 11px;
+padding-top: px;
+font-size: 2vh;
 }
 
 .hey {
@@ -56,7 +57,7 @@ padding-top: 11px;
 }
 
 .cation {
-    padding-top: 25px;
+    padding-top: 1px;
     font-size: 30px;
 }
 
@@ -95,4 +96,16 @@ padding-top: 11px;
 
 .start-cards {
     padding: 30px;
+}
+
+.hi {
+    font-size: 30px;
+}
+
+.texted{
+    font-size: 2vh;
+}
+
+.sent {
+    font-size: 2vh;
 }

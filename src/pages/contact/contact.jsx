@@ -50,7 +50,7 @@ export const Contact = () => {
               </div>
               <div className="text">
                 <h5></h5>
-                <h2>844-ship-It-1</h2>
+                <h2>844-SHIP-IT-1</h2>
                 <p>844-744-7481</p>
               </div>
             </div>

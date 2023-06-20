@@ -1,2 +1,8 @@
 .Apply {
 padding-bottom: 45px;}
+
+.column {
+    display: grid;
+        width: auto;
+    grid-template-columns: auto auto;
+}
