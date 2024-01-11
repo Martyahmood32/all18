@@ -10,9 +10,9 @@ export const Home = () => {
     <div className='Home'>
     <div className="img">
     <img src="/images/blackall18.png" className='App-logo' alt="logo" />
-    </div>
       <div className='banner-card'>
         <img src="https://media.wired.com/photos/60f9b8a417ecd990dacf3c75/4:3/w_1439,h_1079,c_limit/Business-Self-Driving-Trucks-TuSimple.jpg" alt="" />     
+      </div>
       </div>
       <div className="About">
         <h1 className='About-us'>Drive and Thrive</h1>

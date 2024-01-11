@@ -9,7 +9,11 @@ import { Card } from "react-bootstrap";
 import { CardGroup } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from './components/footer';
-import { ListGroup }from 'react-bootstrap/ListGroup';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 
 function App() {
@@ -19,7 +23,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="home" element={<Home />}/>
-          <Route path="about" element={<About />}/>
           <Route path="start" element={<Start />}/>
           <Route path="contact" element={<Contact />}/>
         </Routes>

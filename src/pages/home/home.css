@@ -71,7 +71,7 @@ font-size: 2vh;
 
 .banner-card img {
     max-width: 100%;
-    height: auto;
+    
 }
 
 .banner-text {
@@ -108,4 +108,10 @@ font-size: 2vh;
 
 .sent {
     font-size: 2vh;
+}
+
+.App-logo {
+   max-width: 100%;
+ height: auto;
+   
 }
